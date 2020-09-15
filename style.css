@@ -1,0 +1,182 @@
+@import url(https://fonts.google.com/specimen/Bai+Jamjuree);
+
+body{
+    font-family:'Bai Jamjuree',sans-serif;
+}
+
+body {
+    font-size: 18px;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+header {
+    padding-top: 50px;
+    display: flex;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  header img {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 200%;
+  margin: 0;
+  
+}
+
+header p, section p {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 95%;
+  width: 45% !important;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 30px;
+  align-items: center !important;
+  text-align:center !important;
+}
+
+
+h1,h2,h3 {
+  color: hsl(210, 10%, 33%);
+}
+
+.btn {
+    cursor: pointer;
+  display: inline-block;
+  padding: 15px 20px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 15px;
+  color: #fff;
+}
+
+.p{
+  width:60%;
+}
+.green {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 18px 48px -12px hsla(171, 66%, 44%, 0.521);
+  }
+  
+  .purple {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 18px 48px -12px hsl(233, 100%, 69%, 0.5);
+  }
+  
+  
+section {
+  
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center;
+    flex-direction: column;
+
+  }
+  
+  .tl{
+    text-align:left;
+  }
+  section h2 {
+    font-size: 150% !important;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    margin: 0;
+    width: 50% !important;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 50px;
+    font-size: 90%;
+  }
+ 
+
+
+span{
+  color: hsl(201, 11%, 66%);
+  font-size: 90%;
+}
+
+footer.span:hover{
+  color: hsl(171, 66%, 44%);
+
+}
+
+@media only screen and (max-width: 767px) {
+  section {
+    padding:60px;
+    margin-top: 40px;
+  }
+  section p {
+    width: 90% !important;
+    text-align:center !important;
+  }
+  section h2{
+    text-align: center !important;
+  }
+  section img{
+    width:500px !important;
+  }
+  header h1 {
+    font-size: 160%;
+    margin-bottom: 30px;
+  }
+  header p {
+    width:63% !important;
+    text-align: center !important;
+    font-size: 90%;
+  }
+ 
+  .btn-container {
+    width: 80%;
+  }
+  .btn-container .btn {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+  }
+  .sels{
+    padding-left: 170px;
+  }
+  section .sss{
+    padding:70px;
+    width:100% !important;
+    text-align:center !important;
+    align-items: center !important;
+  }
+  .perks{
+    width:100% !important;
+  }
+  .tl{
+    width:100% !important;
+    text-align:center !important;
+    align-items: center !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
